@@ -1,0 +1,12 @@
+.bg-textile-dark-blue {
+  background: url(../../Public/resources/img/textile-texture-dark-blue.jpg);
+}
+.bg-textile-light-blue {
+  background: url(../../Public/resources/img/textile-texture-light-blue.jpg);
+}
+* {
+  box-sizing: border-box;
+}
+html * {
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
