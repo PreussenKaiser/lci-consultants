@@ -1,7 +1,7 @@
-<div class="navbar navbar-expand-lg navbar-dark bg-textile-light-blue">
+<div class="navbar navbar-expand-lg navbar-light bg-textile-gray">
 	<div class="container">
 		<a class="navbar-brand" href=".">
-			<?=TITLE?>
+			<img src="Public/resources/img/lci_consultants_logo.png">
 		</a>
 		<button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
