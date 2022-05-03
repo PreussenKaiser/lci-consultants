@@ -21,17 +21,17 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <h4 class="text-white">
+                <h4 class="text-white m-0">
                     Project Management
                 </h4>
             </div>
             <div class="col-4">
-                <h4 class="text-white">
+                <h4 class="text-white m-0">
                     Contruction Management
                 </h4>
             </div>
             <div class="col-4">
-                <h4 class="text-white">
+                <h4 class="text-white m-0">
                     Construction Monitoring
                 </h4>
             </div>
@@ -82,9 +82,9 @@
                  alt="">
         </div>
         <div class="col-sm-8">
-            <span class="h2 text-primary">
+            <h2 class="text-primary align-self-center">
                 LCI Consultants is a proud sponsor of The YMCA.
-            </span>
+            </h2>
         </div>
     </div>
 </div>

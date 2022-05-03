@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="Public/css/style.css">
 </head>
-<body>
+<body class="bg-textile-gray">
 <nav>
     <?php require_once('navigation.php'); ?>
 </nav>
