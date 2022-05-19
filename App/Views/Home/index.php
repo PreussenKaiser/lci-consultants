@@ -13,11 +13,11 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="container-fluid bg-textile-light-blue p-3">
+<div class="container-fluid bg-textile-light-blue p-3 d-none d-sm-block">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -41,6 +41,10 @@
 <div class="container p-3">
     <div class="row">
         <div class="col-md-4 d-flex flex-column justify-content-between">
+            <h2 class="d-sm-none mt-2">
+                Project Management
+            </h2>
+
             <p>
                 Clients engage LCI to provide leadership services in the realization of their building project needs. 
                 Our philosophy is to plan and continuously review all details of a project from inception, 
@@ -48,10 +52,16 @@
                 during construction and finally to commissioning and handover to the owner.
             </p>
 
-            <img class="w-100" src="Public\resources\img\project-management-homepg-small-photo.jpg"
-                 alt="">
+            <a class="img-link" href="home@projectManage">
+                <img class="w-100" src="Public\resources\img\project-management-homepg-small-photo.jpg"
+                     alt="">
+            </a>
         </div>
         <div class="col-md-4 d-flex flex-column justify-content-between">
+            <h2 class="d-sm-none mt-4">
+                Construction Management
+            </h2>
+
             <p>
                 LCI has managed many construction projects with different levels of complexity, 
                 but all involving tight budgets, difficult deadlines and complex scope issues. 
@@ -59,16 +69,24 @@
                 delays and budget overruns.
             </p>
 
-            <img class="w-100" src="Public\resources\img\construction-auditing-homepg-small-photo.jpg"
-                 alt="">
+            <a class="img-link" href="home@constructionManage">
+                <img class="w-100" src="Public\resources\img\construction-auditing-homepg-small-photo.jpg"
+                     alt="">
+            </a>
         </div>
         <div class="col-md-4 d-flex flex-column justify-content-between">
+            <h2 class="d-sm-none mt-4">
+                Contruction Monitoring
+            </h2>
+
             <p>
                 LCI’s Preconstruction Services are designed to provide our clients with the information necessary to make a well-informed decision regarding the potential risks of a project.
             </p>
 
-            <img class="w-100" src="Public\resources\img\construction-monitoring-homepg-small-photo.jpg"
-                 alt="">
+            <a class="img-link" href="home@constructionMonitor">
+                <img class="w-100" src="Public\resources\img\construction-monitoring-homepg-small-photo.jpg"
+                     alt="">
+            </a>
         </div>
     </div>
     <div class="row p-3">

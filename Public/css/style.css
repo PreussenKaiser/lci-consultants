@@ -7,6 +7,9 @@
 .bg-textile-gray {
   background: url(../../Public/resources/img/textile_texture_gray.jpg);
 }
+.img-link:hover {
+  outline: 4px solid red;
+}
 * {
   box-sizing: border-box;
 }

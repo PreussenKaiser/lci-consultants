@@ -4,6 +4,8 @@ namespace Core\Validation\Inputs;
 
 /**
  * The class that represents a form input.
+ * 
+ * @author PreussenKaiser
  */
 abstract class Input
 {

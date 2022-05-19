@@ -6,8 +6,10 @@ use Core\Validation\Inputs\Input;
 
 /**
  * The class that contains validation helper methods.
+ * 
+ * @author PreussenKaiser
  */
-class Form
+final class Form
 {
 	/**
 	 * @var array The inputs in the form.

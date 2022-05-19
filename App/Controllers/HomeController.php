@@ -14,7 +14,7 @@ final class HomeController extends Controller
      */
     public function __construct()
     {
-        parent::__construct();
+        parent::__construct('Home');
     }
 
     /**
@@ -36,7 +36,7 @@ final class HomeController extends Controller
     private function buildCarousel(): string
     {
         $result = '';
-        $path = 'Public/resources/img/home-page-920x404-slide';
+        $path = 'Public/resources/img/carousel/home-page-920x404-slide';
 
         $i = 0;
         $continue = true;

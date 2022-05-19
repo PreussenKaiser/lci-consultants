@@ -4,6 +4,8 @@ namespace Routes;
 
 /**
  * The class that parse a request and assigns its properties.
+ * 
+ * @author PreussenKaiser
  */
 class Router
 {
