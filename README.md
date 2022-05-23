@@ -1,7 +1,7 @@
 # LCI Consultants
 ### Summary
 #### Description
-The website for LCI Consultants
+The website for LCI Consultants.
 
 ### Technical
 #### Settings

@@ -12,7 +12,7 @@ abstract class Input
 	/**
 	 * @var string The input's name.
 	 */
-	private string $name;
+	private readonly string $name;
 
 	/**
 	 * Initializes a new instance of the Input class.

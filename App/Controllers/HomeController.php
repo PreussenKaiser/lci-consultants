@@ -2,19 +2,32 @@
 
 namespace App\Controllers;
 
+use App\Services\Image\ImageService;
+use App\Services\Image\ImageServiceInterface;
+use App\Models\Image;
+
 /**
  * The controller that displays home views.
  * 
  * @author PreussenKaiser
+ * @uses ImageServiceInterface To get images for the carousel.
  */
 final class HomeController extends Controller
 {
+    /**
+     * Gets images for the home page.
+     * @var ImageServiceInterface
+     */
+    private readonly ImageServiceInterface $image_service;
+
     /**
      * Initializes a new instance of the HomeController controller.
      */
     public function __construct()
     {
         parent::__construct('Home');
+
+        $this->image_service = new ImageService;
     }
 
     /**
@@ -22,40 +35,66 @@ final class HomeController extends Controller
      */
     protected function indexAction()
     {
-        $slides = $this->buildCarousel();
+        $slides = $this->buildCarousel(
+            $this->image_service->getImages('carousel')
+        );
 
         $params = compact('slides');
         $this->view->render('Home/index', $params);
     }
 
     /**
+     * Displays the about view.
+     */
+    protected function aboutAction(): void
+    {
+    }
+
+    /**
+     * Displays the services view.
+     */
+    protected function servicesAction(): void
+    {
+    }
+
+    /**
+     * Displays the portfolio view.
+     */
+    protected function portfolioAction(): void
+    {
+    }
+
+    /**
+     * Displays the contact view.
+     */
+    protected function contactAction(): void
+    {
+    }
+
+    /**
      * Builds carousel slides.
      * 
+     * @param iterable $images The images to use.
      * @return string The built carousel slides as HTML.
      */
-    private function buildCarousel(): string
+    private function buildCarousel(iterable $images): string
     {
         $result = '';
-        $path = 'Public/resources/img/carousel/home-page-920x404-slide';
 
-        $i = 0;
-        $continue = true;
-        while ($continue) {
-            $img = $path . $i . '.jpg';
+        foreach ($images as $img) {
+            if ($img instanceof Image) {
+                $modifier = array_search($img, (array)$images) == 0 
+                    ? 'active'
+                    : '';
 
-            if (file_exists(ROOT . $img)) {
-                $modifier = $i == 0 ? 'active' : '';
-
+                $path = $img->getPath();
+    
                 $result .= "
                             <div class='carousel-item $modifier'>
-                                <img src='$img' class='d-block w-100'
+                                <img src='$path' class='d-block w-100'
                                     alt='...'>
                             </div>
                            ";
-                $i++;
-            }
-            else {
-                $continue = false;
             }
         }
 

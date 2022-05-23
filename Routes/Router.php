@@ -7,7 +7,7 @@ namespace Routes;
  * 
  * @author PreussenKaiser
  */
-class Router
+final class Router
 {
 	/**
 	 * Assigns request properties.

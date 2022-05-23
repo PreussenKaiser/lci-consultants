@@ -17,14 +17,16 @@ use Exception;
 final class Program
 {
     /**
-     * @var LoggerInterface Logs application processes.
+     * Logs application processes.
+     * @var LoggerInterface
      */
-    private LoggerInterface $logger;
+    private readonly LoggerInterface $logger;
 
     /**
-     * @var Dispatcher What to dispatch requests with.
+     * What to dispatch requests with.
+     * @var Dispatcher
      */
-    private Dispatcher $dispatcher;
+    private readonly Dispatcher $dispatcher;
 
     /**
      * Initializes a new instance of the Program class.
