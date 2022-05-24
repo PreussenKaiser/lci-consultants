@@ -64,7 +64,7 @@ final class ProvidedDataStore extends DataStore
                     We manage the team as it produces its collective deliverables, keeping clients informed through detailed reporting and regular meetings.
                  </p>
                   
-                 <h2 class="text-primary">
+                 <h2 class="h5 text-primary">
                     Key Benefits:
                  </h2>
                  

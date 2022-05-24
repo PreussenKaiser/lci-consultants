@@ -31,7 +31,10 @@ final class Program
     /**
      * Initializes a new instance of the Program class.
      */
-    public function __construct() {
+    public function __construct()
+    {
+        Config::loadConfig();
+
         $this->logger = Logger::getInstance();
         $this->dispatcher = new Dispatcher;
     }
@@ -42,7 +45,6 @@ final class Program
     public function init(): void
     {
         session_start();
-        Config::loadConfig();
 
         try {
             $this->dispatcher->dispatch();

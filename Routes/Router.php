@@ -36,7 +36,7 @@ final class Router
 
 	/**
 	 * Gets the controller, action and parameters from url arguments.
-	 **
+	 *
 	 * @param string $arguments The arguments to extract request properties from.
 	 * @return array The found controller.
 	 */

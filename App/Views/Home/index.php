@@ -1,19 +1,9 @@
 <div class="container-fluid">
     <div class="row bg-textile-dark-blue p-4">
         <div class="col-sm-6 mx-auto">
-            <div id="carouselExampleControls" class="carousel slide border border-light border-5" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <?=$slides ?? 'There was a problem rendering the slides'?>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            <?php
+                include_once(ROOT . 'App/Views/Shared/Components/carousel.php');
+            ?>
         </div>
     </div>
 </div>
@@ -27,7 +17,7 @@
             </div>
             <div class="col-md-4">
                 <h4 class="text-white m-0">
-                    Contruction Management
+                    Construction Management
                 </h4>
             </div>
             <div class="col-md-4">
@@ -52,7 +42,7 @@
                 during construction and finally to commissioning and handover to the owner.
             </p>
 
-            <a class="img-link" href="home@projectManage">
+            <a class="img-link" href="service@service?projectManagement">
                 <img class="w-100" src="Public\resources\img\project-management-homepg-small-photo.jpg"
                      alt="">
             </a>
@@ -69,7 +59,7 @@
                 delays and budget overruns.
             </p>
 
-            <a class="img-link" href="home@constructionManage">
+            <a class="img-link" href="service@service?constructionManagement">
                 <img class="w-100" src="Public\resources\img\construction-auditing-homepg-small-photo.jpg"
                      alt="">
             </a>
@@ -83,7 +73,7 @@
                 LCI’s Preconstruction Services are designed to provide our clients with the information necessary to make a well-informed decision regarding the potential risks of a project.
             </p>
 
-            <a class="img-link" href="home@constructionMonitor">
+            <a class="img-link" href="service@service?constructionMonitoring">
                 <img class="w-100" src="Public\resources\img\construction-monitoring-homepg-small-photo.jpg"
                      alt="">
             </a>

@@ -13,7 +13,7 @@ abstract class DataStore
      * The items in the data store.
      * @var iterable
      */
-    private static readonly iterable $items;
+    private static iterable $items;
     
     /**
      * Initializes a new instance of the DataStore class.

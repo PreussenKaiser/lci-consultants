@@ -14,19 +14,19 @@
 			</ul>
 			<ul class="navbar-nav mb-2 mb-lg-0">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="home@index">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="home@about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Services</a>
+					<a class="nav-link" href="home@services">Services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Portfolio</a>
+					<a class="nav-link" href="home@portfolio">Portfolio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="home@contact">Contact</a>
 				</li>
 			</ul>
 		</div>

@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="Public/css/style.css">
 </head>
 <body class="bg-textile-gray">
-<nav>
-    <?php require_once('navigation.php'); ?>
-</nav>
+    <div class="bg-textile-light-blue p-3"></div>
+    <nav>
+        <?php require_once('navigation.php'); ?>
+    </nav>
 
-<!-- This is where the view will be rendered -->
-<main>
-    <?php require_once($view); ?>
-</main>
+    <main>
+        <?php require_once($view); ?>
+    </main>
 
-<footer class="footer text-white text-center">
-    <?php require_once('footer.php')?>
-</footer>
+    <footer class="footer text-white text-center">
+        <?php require_once('footer.php')?>
+    </footer>
 
-<script src="vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
-<script type="module" src="Public/js/out/site.js"></script>
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="module" src="Public/js/out/site.js"></script>
 </body>
 </html>

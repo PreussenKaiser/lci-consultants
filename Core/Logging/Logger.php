@@ -13,12 +13,14 @@ namespace Core\Logging;
 final class Logger implements LoggerInterface
 {
     /**
-     * @var ?Logger The current instance of the Logger.
+     * The current instance of the Logger.
+     * @var ?Logger
      */
     private static ?Logger $instance = null;
 
     /**
-     * @var string The path to place logs in.
+     * The path to place logs in.
+     * @var string
      */
     private string $path;
 
@@ -91,17 +93,22 @@ final class Logger implements LoggerInterface
     {
         $settings = parse_ini_file('../Config/config.ini');
 
-        $this->path = $settings['logging_filepath'];
+        $this->path = ROOT . $settings['logging_filepath'];
     }
 
     /**
      * Writes a log as a text file.
+     * 
+     * @param string $msg The log to write.
+     * @param int $level The severity of the log.
      */
     private function writeLog(string $msg, int $level): void
     {
         $log = "$level: $msg\n";
 
-        fwrite($this->path, $log);
-        fclose($this->path);
+        $stream = fopen($this->path, 'a');
+
+        fwrite($stream, $log);
+        fclose($stream);
     }
 }

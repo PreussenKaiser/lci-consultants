@@ -3,8 +3,6 @@
 namespace App\Controllers;
 
 use App\Models\Provided;
-use App\Services\Provided\ProvidedService;
-use Core\DataStores\DataStore;
 use Core\DataStores\ProvidedDataStore;
 
 /**
@@ -19,7 +17,7 @@ final class ServiceController extends Controller
      * The services provided by LCI-Consultants
      * @var iterable
      */
-    private readonly iterable $services;
+    private iterable $services;
 
     /**
      * Initializes a new instance of the ServiceController controller.
@@ -37,7 +35,7 @@ final class ServiceController extends Controller
      * 
      * @param string $service The service to render.
      */
-    private function serviceAction(string $service): void
+    protected function serviceAction(string $service): void
     {
         $service = $this->findService(
             $this->determineService($service)
@@ -54,7 +52,7 @@ final class ServiceController extends Controller
             'title', 'details',
             'description', 'images'
         );
-        $this->view->render("$this->view_folder/service_view");
+        $this->view->render("$this->view_folder/service_view", $params);
     }
 
     /**
@@ -87,7 +85,7 @@ final class ServiceController extends Controller
      */
     private function findService(string $search): Provided
     {
-        for ($i = 0, $i < count($this->services); $i++) {
+        for ($i = 0; $i < count($this->services); $i++) {
             $service = $this->services[$i];
 
             if ($service instanceof Provided) {

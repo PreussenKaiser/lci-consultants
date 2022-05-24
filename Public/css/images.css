@@ -1,3 +1,6 @@
+.img-link {
+  outline: 4px solid white;
+}
 .img-link:hover {
   outline: 4px solid red;
 }

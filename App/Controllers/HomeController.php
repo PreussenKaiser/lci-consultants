@@ -48,6 +48,7 @@ final class HomeController extends Controller
      */
     protected function aboutAction(): void
     {
+        $this->view->render("$this->view_folder/about");
     }
 
     /**
@@ -55,6 +56,7 @@ final class HomeController extends Controller
      */
     protected function servicesAction(): void
     {
+        $this->view->render("$this->view_folder/services");
     }
 
     /**
@@ -62,6 +64,12 @@ final class HomeController extends Controller
      */
     protected function portfolioAction(): void
     {
+        $slides = $this->buildCarousel(
+            $this->image_service->getImages('carousel')
+        );
+
+        $params = compact('slides');
+        $this->view->render("$this->view_folder/portfolio", $params);
     }
 
     /**
@@ -69,6 +77,7 @@ final class HomeController extends Controller
      */
     protected function contactAction(): void
     {
+        $this->view->render("$this->view_folder/contact");
     }
 
     /**

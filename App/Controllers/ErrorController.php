@@ -27,33 +27,12 @@ final class ErrorController extends Controller
     protected function errorAction(): void
     {
         $params = $this->generateError(
-            'Oops, we had a problem finding that URL',
+            'We had a problem finding that URL',
             'Please verify if what you entered is a valid page'
         );
         $this->view->render("$this->view_folder/error", $params);
 
         $this->logger->error('Could not load page!');
-    }
-
-    /**
-     * Renders the unauthorized view.
-     * 
-     * Called in the Authorize class when the user isn't authorized to visit a page.
-     * Or when the url is 'error@unauthorized'
-     * 
-     * @param string $author The user type the action belonges to.
-     */
-    protected function unauthorizedAction(string $author): void
-    {
-        $params = $this->generateError(
-            'Oops, this area is restricted!',
-            'Only ' . $author . 's have access to this page'
-        );
-        $this->view->render('Error/error', $params);
-
-        $this->logger->error(
-            "Unauthorized access to an $author page prevented"
-        );
     }
 
     /**
