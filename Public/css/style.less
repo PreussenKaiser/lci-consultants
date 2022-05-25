@@ -1,5 +1,6 @@
 @import 'backgrounds';
 @import 'images';
+@import 'footers';
 
 * {
   box-sizing: border-box;
@@ -7,4 +8,15 @@
 
 html * {
   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 56px;
+}
+
+.nav-link {
+  // removes black flash in nav after redirect
+  transition: none !important;
 }

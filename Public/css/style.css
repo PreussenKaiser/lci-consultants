@@ -16,9 +16,22 @@
 .img-link:hover {
   outline: 4px solid red;
 }
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
 * {
   box-sizing: border-box;
 }
 html * {
   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 56px;
+}
+.nav-link {
+  transition: none !important;
 }

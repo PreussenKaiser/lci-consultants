@@ -6,19 +6,19 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-8 order-sm-first">
             <form class="form p-3" enctype="multipart/form-data"
                   action="">
 
-                <div class="row mb-3">
-                    <div class="col-sm-6">
+                <div class="row mb-md-3">
+                    <div class="col-md-6 mb-3">
                         <label class="form-label" for="name">
                             Name
                         </label>
                         <input class="form-control border-dark" type="text"
                                name="name">
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-md-6 mb-3">
                         <label class="form-label" for="company">
                             Company
                         </label>
@@ -26,15 +26,15 @@
                                name="company">
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-sm-6">
+                <div class="row mb-md-3">
+                    <div class="col-md-6 mb-3">
                         <label class="form-label" for="email">
                             Email
                         </label>
                         <input class="form-control border-dark" type="email"
                                 name="email">
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-md-6 mb-3">
                         <label class="form-label" for="phone">
                             Phone Number
                         </label>
@@ -42,8 +42,8 @@
                                name="phone">
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-sm-6">
+                <div class="row mb-sm-3">
+                    <div class="col-md-6 mb-3">
                         <label class="form-label" for="message">
                             Your Message
                         </label>
@@ -57,20 +57,18 @@
                        value="Send">
             </form>
         </div>
-        <div class="col-sm-4">
-            <p>
-                <b>LCI Consultants</b>
-                <br>
-                1018 N. Yakima Ave.
-                <br>
-                Tacoma, WA 98403
-                <br>
-                360-624-8189
-                <br>
-                <a href="mailto:lisa@lci-consultants.com">
-                    lisa@lci-consultants.com
-                </a>
-            </p>
+        <div class="col-sm-4 order-first">
+            <div class="p-3">
+                <p>
+                    <b>LCI Consultants</b>
+                    <br>
+                    360-624-8189
+                    <br>
+                    <a href="mailto:lisa@lci-consultants.com">
+                        lisa@lci-consultants.com
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
 </div>

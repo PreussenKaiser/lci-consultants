@@ -10,17 +10,17 @@
 <div class="container-fluid bg-textile-light-blue p-3 d-none d-sm-block">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <h4 class="text-white m-0">
                     Project Management
                 </h4>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <h4 class="text-white m-0">
                     Construction Management
                 </h4>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <h4 class="text-white m-0">
                     Construction Monitoring
                 </h4>
@@ -30,7 +30,7 @@
 </div>
 <div class="container p-3">
     <div class="row">
-        <div class="col-md-4 d-flex flex-column justify-content-between">
+        <div class="col-sm-4 d-flex flex-column justify-content-between">
             <h2 class="d-sm-none mt-2">
                 Project Management
             </h2>
@@ -47,7 +47,7 @@
                      alt="">
             </a>
         </div>
-        <div class="col-md-4 d-flex flex-column justify-content-between">
+        <div class="col-sm-4 d-flex flex-column justify-content-between">
             <h2 class="d-sm-none mt-4">
                 Construction Management
             </h2>
@@ -64,7 +64,7 @@
                      alt="">
             </a>
         </div>
-        <div class="col-md-4 d-flex flex-column justify-content-between">
+        <div class="col-sm-4 d-flex flex-column justify-content-between">
             <h2 class="d-sm-none mt-4">
                 Contruction Monitoring
             </h2>
@@ -81,8 +81,10 @@
     </div>
     <div class="row p-3">
         <div class="col-sm-4">
-            <img class="w-100" src="Public\resources\img\ymca-logo.jpg"
-                 alt="">
+            <a href="https://www.ymcapkc.org/give">
+                <img class="w-100" src="Public\resources\img\ymca-logo.jpg"
+                     alt="">
+            </a>
         </div>
         <div class="col-sm-8">
             <h2 class="text-primary py-5">

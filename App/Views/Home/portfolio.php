@@ -24,6 +24,14 @@
             </h2>
  
             <p>
+                The Shea Apartments
+                <br>
+                959 Franklin Apartments
+                <br>
+                Kirin Apartmernts
+                <br>
+                Shoresmith Apartments
+                <br>
                 Dimension Apartments – Seattle, WA
                 <br>
                 Whittaker Apartments and Retail – Seattle, WA
@@ -119,28 +127,7 @@
                 <br>
                 Marymount Manor – Spanaway, WA
             </p>
-        </div>
-        <div class="col-sm-6">
-            <h2 class="h5 text-primary">
-                Building Envelope Design
-            </h2>
-            <p>
-                Northgate Villa Condominiums – Seattle, WA
-                <br>
-                Wyndham Grand Desert Resort – Las Vegas, NV
-                <br>
-                Decatur – Seattle, WA
-                <br>
-                Bayshore West Condominiums – Seattle, WA
-                <br>
-                1210 Lakeview Blvd. – Seattle, WA
-                <br>
-                Kirkland Village – Kirkland, WA
-                <br>
-                Marymount Manor – Spanaway, WA
-            </p>
-        </div>
-        <div class="col-sm-6">
+
             <h2 class="h5 text-primary">
                 Building Assessment
             </h2>

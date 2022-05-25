@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="Public/css/style.css">
 </head>
 <body class="bg-textile-gray">
-    <div class="bg-textile-light-blue p-3"></div>
-    <nav>
-        <?php require_once('navigation.php'); ?>
-    </nav>
+    <div class="bg-textile-light-blue p-3 d-none d-sm-block"></div>
+    <header>
+        <nav>
+            <?php require_once('navigation.php'); ?>
+        </nav>
+    </header>
 
     <main>
         <?php require_once($view); ?>
