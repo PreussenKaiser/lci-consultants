@@ -1,3 +1,7 @@
+.stagger-up {
+  position: relative;
+  bottom: 64px;
+}
 .bg-textile-dark-blue {
   background: url(../../Public/resources/img/textile-texture-dark-blue.jpg);
 }
