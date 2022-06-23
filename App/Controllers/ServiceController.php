@@ -44,9 +44,7 @@ final class ServiceController extends Controller
         $title = $service->getTitle();
         $details = $service->getDetails();
         $description = $service->getDescription();
-        $images = $this->parseImages(
-            $service->getImages()
-        );
+        $images = $service->getImages();
 
         $params = compact(
             'title', 'details',

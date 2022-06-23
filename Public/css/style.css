@@ -20,6 +20,20 @@
 .img-link:hover {
   outline: 4px solid red;
 }
+.img-services {
+  position: relative;
+  top: -355px;
+}
+@media (min-width: 995px) {
+  .img-services {
+    top: -284px;
+  }
+}
+@media (min-width: 1199px) {
+  .img-services {
+    top: -236.5px;
+  }
+}
 .footer {
   width: 100%;
   position: absolute;
