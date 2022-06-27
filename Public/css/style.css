@@ -16,28 +16,36 @@
 }
 .img-link {
   outline: 4px solid white;
+  transition: 0.25s ease-in-out;
 }
 .img-link:hover {
   outline: 4px solid red;
 }
 .img-services {
   position: relative;
-  top: -355px;
+}
+@media (max-width: 768px) {
+  .img-services {
+    display: none;
+  }
 }
 @media (min-width: 995px) {
   .img-services {
-    top: -284px;
+    top: -324px;
   }
 }
 @media (min-width: 1199px) {
   .img-services {
-    top: -236.5px;
+    top: -276.5px;
   }
 }
 .footer {
   width: 100%;
   position: absolute;
   bottom: 0px;
+}
+ul {
+  list-style-type: '-  ';
 }
 * {
   box-sizing: border-box;
@@ -52,4 +60,7 @@ body {
 }
 .nav-link {
   transition: none !important;
+}
+.service-header {
+  height: 276.8px;
 }

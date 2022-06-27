@@ -1,5 +1,6 @@
 .img-link {
     outline: 4px solid white;
+    transition: .25s ease-in-out;
 
     &:hover {
         outline: 4px solid red;
@@ -8,13 +9,16 @@
 
 .img-services {
     position: relative;
-    top: -355px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 
     @media (min-width: 995px) {
-        top: -284px;
+        top: -324px;
     }
 
     @media (min-width: 1199px) {
-        top: -236.5px;
+        top: -276.5px;
     }
 }

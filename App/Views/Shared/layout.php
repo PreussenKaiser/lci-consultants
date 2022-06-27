@@ -16,7 +16,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="mb-3">
         <?php require_once($view); ?>
     </main>
 

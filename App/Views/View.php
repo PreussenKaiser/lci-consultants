@@ -1,10 +1,11 @@
 <?php
+
 namespace App\Views;
 
 /**
  * The class that renders a view.
  */
-class View
+final class View
 {
 	/**
 	 * Renders the view and injects parameters.

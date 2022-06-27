@@ -31,7 +31,7 @@
         </aside>
         <div class="col-sm-9">
             <p>
-                Has over twenty five years experience in the management of residential, retail & commercial development and construction.
+                Has over thirty five years of experience in the management of residential, retail & commercial development and construction.
                 Strong academic background in construction, real estate development, project scheduling, finance and business.
                 Jay has worked on more than 6,000 apartment and condominium units in his career; much of this experience is at a senior level project manager.
             </p>
@@ -94,7 +94,7 @@
         </aside>
         <div class="col-sm-9">
             <p>
-                Lisa Lukan has over twenty years experience of real estate development, financial analysis and property management.
+                Lisa Lukan has over twenty five years of experience in real estate development, financial analysis and property management.
                 Lisa began her career as a CPA with an international accounting firm.
                 She developed a passion for real estate development and has focused the last 17 years of her career solely on residential real estate.
                 Because of Lisa’s CPA background, she has all the necessary skills for project financial analysis, budget preparation, management and many legal aspects of a project.
@@ -108,12 +108,8 @@
             <p>
                 <b>CONTACT</b>
                 <br/>
-                <a class="me-1" href="mailto:lisa@lci-consultants.com">
+                <a href="mailto:lisa@lci-consultants.com">
                     lisa@lci-consultants.com
-                </a>
-                |
-                <a href="tel:3606248189">
-                    360-624-8189
                 </a>
             </p>
         </div>

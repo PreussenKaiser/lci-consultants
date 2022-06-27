@@ -66,9 +66,9 @@ final class ServiceController extends Controller
             'constructionManagement' => 'Construction Management',
             'constructionMonitoring' => 'Construction Monitoring',
             'buildingAssessment' => 'Building Assessment and Capital Reserve Analysis',
-            'forensicInvestigation' => 'Forensic Investigation and Litigation Suppor',
+            'forensicInvestigation' => 'Forensic Investigation and Litigation Support',
             'buildingEnvelope' => 'Building Envelope Design',
-            'moistureManagement' => 'Moisture Managemen',
+            'moistureManagement' => 'Moisture Management',
             'maintenanceManuals' => 'Building Maintenance Manuals',
             'capitalNeedsAssessment' => 'Capital Needs Assessment',
             _ => ''
@@ -97,16 +97,5 @@ final class ServiceController extends Controller
             'There was a problem rendering the service',
             '', '', []
         );
-    }
-
-    /**
-     * Converts an iterable of images into a list.
-     * 
-     * @param iterable $images The images to make a list from.
-     * @return string The images as an HTML list.
-     */
-    private function parseImages(iterable $images): string
-    {
-        return '';
     }
 }
