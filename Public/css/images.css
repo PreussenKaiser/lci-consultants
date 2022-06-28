@@ -7,19 +7,10 @@
 }
 .img-services {
   position: relative;
+  top: -420px;
 }
 @media (max-width: 768px) {
   .img-services {
     display: none;
-  }
-}
-@media (min-width: 995px) {
-  .img-services {
-    top: -324px;
-  }
-}
-@media (min-width: 1199px) {
-  .img-services {
-    top: -276.5px;
   }
 }

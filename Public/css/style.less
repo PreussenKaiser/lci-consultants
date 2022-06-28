@@ -16,6 +16,14 @@ body {
   position: relative;
   min-height: 100vh;
   padding-bottom: 56px;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    .bg-textile-light-gray;
+  }
 }
 
 .nav-link {
@@ -24,5 +32,24 @@ body {
 }
 
 .service-header {
-  height: 276.8px;
+  // height: 276.8px;
+
+  // @media (max-width: 768px) {
+  //   height: 320px;
+  // }
+
+  height: 42vh;
+
+  @media (min-width: 996px) {
+    p, b {
+      font-size: 1.15rem;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    height: 100%;
+  }
 }

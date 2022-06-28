@@ -99,43 +99,61 @@ final class ProvidedDataStore extends DataStore
                 <p>
                     Depending on your specific needs and requirements, LCI provides effective project leadership and management in the following service areas:
                 </p>
-                <p>
-                    - Bid Evaluation
-                    <br>
-                    - Constructability Review
-                    <br>
-                    - Contract Negotiation and Review
-                    <br>
-                    - Project Schedule Review
-                    <br>
-                    - Consultant Coordination
-                    <br>
-                    - Change Order Management
-                    <br>
-                    - Cost Estimating
-                    <br>
-                    - Cost Containment
-                    <br>
-                    - Schedule Management
-                    <br>
-                    - Value Engineering
-                    <br>
-                    - Dispute Avoidance and Resolution
-                    <br>
-                    - Inspection and Quality Assurance
-                </p>
+                <ul>
+                    <li>
+                        Bid Evaluation
+                    </li>
+                    <li>
+                        Constructability Review
+                    </li>
+                    <li>
+                        Contract Negotiation and Review
+                    </li>
+                    <li>
+                        Project Schedule Review
+                    </li>
+                    <li>
+                        Consultant Coordination
+                    </li>
+                    <li>
+                        Change Order Management
+                    </li>
+                    <li>
+                        Cost Estimating
+                    </li>
+                    <li>
+                        Cost Containment
+                    </li>
+                    <li>
+                        Schedule Management
+                    </li>
+                    <li>
+                        Value Engineering
+                    </li>
+                    <li>
+                        Dispute Avoidance and Resolution
+                    </li>
+                    <li>
+                        Inspection and Quality Assurance
+                    </li>
+                </ul>
                 <h2 class="h5 text-primary">
                     Key Benefits:
                 </h2>
-                <p><b>
-                    - Independent and impartial review of design professionals and contractors
-                    <br>
-                    - Utilize highly experienced professionals that you may not be able to hire as employees
-                    <br>
-                    - Utilize external experience for Projects to enhance in-house technical knowledge
-                    <br>
-                    - Reduce employee costs for major Projects by use of a consulting firm for a fixed-term contract
-                </b></p>
+                <ul>
+                    <li>
+                        <b>Independent and impartial review of design professionals and contractors</b>
+                    </li>
+                    <li>
+                        <b>Utilize highly experienced professionals that you may not be able to hire as employees</b>
+                    </li>
+                    <li>
+                        <b>Utilize external experience for Projects to enhance in-house technical knowledge</b>
+                    </li>
+                    <li>
+                        <b>Reduce employee costs for major Projects by use of a consulting firm for a fixed-term contract</b>
+                    </li>
+                </ul>
                 <p>
                     <b>PROJECT SCHEDULE REVIEW</b>
                     <br>
@@ -177,13 +195,17 @@ final class ProvidedDataStore extends DataStore
                     Developing accurate construction bid estimates requires a comprehensive understanding of project costs and factors that impact project costs, along with knowledge of the estimating process.
                     In the end, our estimating team addresses three primary concerns:
                 </p>
-                <p>
-                    - How many? (quantities)
-                    <br>
-                    - How much? (pricing)
-                    <br>
-                    - How long? (productivity)
-                </p>
+                <ul>
+                    <li>
+                        How many? (quantities)
+                    </li>
+                    <li>
+                        How much? (pricing)
+                    </li>
+                    <li>
+                        How long? (productivity)
+                    </li>
+                </ul>
                 <p>
                     With our methodical, yet practical approach LCI’s construction bid estimates include quantity take-offs to answer ‘how many’, market-factored pricing to answer ‘how much’, and scheduling services to answer ‘how long’.
                     In addition, our estimating expertise qualifies us to evaluate and analyze submitted bids for possible errors or shortcomings.
@@ -191,21 +213,29 @@ final class ProvidedDataStore extends DataStore
                 <p>
                     LCI’s services that may assist in the development of your value engineering efforts include:
                 </p>
-                <p>
-                    - Pre-construction planning and coordination
-                    <br>
-                    - Construction cost management
-                    <br>
-                    - Construction cost estimating
-                    <br>
-                    - Quantity take-offs
-                    <br>
-                    - Material escalation analysis
-                    <br>
-                    - Risk management techniques
-                    <br>
-                    - Risk management assessments
-                </p>
+                <ul>
+                    <li>
+                        Pre-construction planning and coordination
+                    </li>
+                    <li>
+                        Construction cost management
+                    </li>
+                    <li>
+                        Construction cost estimating
+                    </li>
+                    <li>
+                        Quantity take-offs
+                    </li>
+                    <li>
+                        Material escalation analysis
+                    </li>
+                    <li>
+                        Risk management techniques
+                    </li>
+                    <li>
+                        Risk management assessments
+                    </li>
+                </ul>
                 <p>
                     Whether you are an owner, program manager, contractor, architect or construction manager, LCI is equipped to supplement your team’s expertise with additional insight to ensure your project’s success.
                     Regardless of the stage of your project, LCI’s value engineering services can assist with conceptual budgets, preliminary estimates, quantity take-offs, bid estimates or contract pricing.
@@ -219,17 +249,23 @@ final class ProvidedDataStore extends DataStore
                 <p>
                     LCI can assist with a variety of activities that will assist in avoiding costly disputes including:
                 </p>
-                <p>
-                    - Contract Reviews
-                    <br>
-                    - Pre-project Planning
-                    <br>
-                    - Plan Reviews
-                    <br>
-                    - Cost and Schedule Validation and Monitoring
-                    <br>
-                    - Constructability Reviews
-                </p>
+                <ul>
+                    <li>
+                        Contract Reviews
+                    </li>
+                    <li>
+                        Pre-project Planning
+                    </li>
+                    <li>
+                        Plan Reviews
+                    </li>
+                    <li>
+                        Cost and Schedule Validation and Monitoring
+                    </li>
+                    <li>
+                        Constructability Reviews
+                    </li>
+                </ul>
                 <p>
                     Whether you are an owner, program manager, contractor, architect, construction manager or subcontractor, LCI’s consultants have the knowledge and know how to help you avoid disputes and mitigate claims.
                 </p>
@@ -242,30 +278,41 @@ final class ProvidedDataStore extends DataStore
                 <p>
                     Elements of Quality Assurance program include:
                 </p>
-                <p>
-                    - Design  Quality Procedures
-                    <br>
-                    - Construction Quality Procedures
-                    <br>
-                    - Forms/Checklists
-                    <br>
-                    - Document Control Plan
-                    <br>
-                    - Construction Inspection and Testing Quality Assurance Plan
-                    <br>
-                    - Construction Quality Training Manual
-                    <br>
-                    - Laboratory Quality System Manual
-                </p>',
+                <ul>
+                    <li>
+                        Design Quality Procedures
+                    </li>
+                    <li>
+                        Construction Quality Procedures
+                    </li>
+                    <li>
+                        Forms/Checklists
+                    </li>
+                    <li>
+                        Document Control Plan
+                    </li>
+                    <li>
+                        Construction Inspection and Testing Quality Assurance Plan
+                    </li>
+                    <li>
+                        Construction Quality Training Manual
+                    </li>
+                    <li>
+                        Laboratory Quality System Manual
+                    </li>
+                </ul>',
                 $this->image_service->getImages('construction_management')
             ),
             new Provided(
                 'Construction Monitoring',
-                '<b>Before Construction Starts and During</b>
-                <br>
-                For equity or debt investors in new development projects, discovering and resolving potential problems, errors or omissions that could result in cost overruns, project delays or potential litigation is a high priority.
-                LCI’s Preconstruction Services are designed to provide our clients with the information necessary to make a well-informed decision regarding the potential risks of a project LCI will prepare a report which includes a comprehensive review and analysis of construction project information, documentation and budget, which outlines various factors that may impact construction cost and schedule.
-                The report consists of the Document Review and the Cost Review of the contractors proposed budget.',
+                '<b>
+                    Before Constructions Starts and During
+                </b>
+                <p>
+                    For equity or debt investors in new development projects, discovering and resolving potential problems, errors or omissions that could result in cost overruns, project delays or potential litigation is a high priority.
+                    LCI’s Preconstruction Services are designed to provide our clients with the information necessary to make a well-informed decision regarding the potential risks of a project LCI will prepare a report which includes a comprehensive review and analysis of construction project information, documentation and budget, which outlines various factors that may impact construction cost and schedule.
+                    The report consists of the Document Review and the Cost Review of the contractors proposed budget.
+                </p>',
                 '<h2 class="h5 text-primary">
                     Document Review
                 </h2>
@@ -273,33 +320,47 @@ final class ProvidedDataStore extends DataStore
                     The document review includes an independent evaluation of the plans and specifications for completeness, appropriateness and accuracy.
                     Documents to be reviewed can consist of the following:
                 </p>
-                <p>
-                    - Construction contract(s)
-                    <br>
-                    - ALTA Survey
-                    <br>
-                    - Geotechnical reports
-                    <br>
-                    - Civil engineering drawings and specifications
-                    <br>
-                    - Structural engineering drawings and specifications
-                    <br>
-                    - Architectural drawings and specifications
-                    <br>
-                    - MEP drawings and specifications
-                    <br>
-                    - Project schedules
-                    <br>
-                    - Agreements (between borrower/general contractor, borrower/architect or engineer)
-                    <br>
-                    - Verify conformance between contract documents and the construction loan agreement
-                    <br>
-                    - Permits
-                    <br>
-                    - Will-serve letters for utilities including water, sanitary sewer, gas, electric, telephone
-                    <br>
-                    - Copies of any public works agreements for required on- or off-site work
-                </p>
+                <ul>
+                    <li>
+                        Construction contract(s)
+                    </li>
+                    <li>
+                        ALTA Survey
+                    </li>
+                    <li>
+                        Geotechnical reports
+                    </li>
+                    <li>
+                        Civil engineering drawings and specifications
+                    </li>
+                    <li>
+                        Structural engineering drawings and specifications
+                    </li>
+                    <li>
+                        Architectural drawings and specifications
+                    </li>
+                    <li>
+                        MEP drawings and specifications
+                    </li>
+                    <li>
+                        Project schedules
+                    </li>
+                    <li>
+                        Agreements (between borrower/general contractor, borrower/architect or engineer)
+                    </li>
+                    <li>
+                        Verify conformance between contract documents and the construction loan agreement
+                    </li>
+                    <li>
+                        Permits
+                    </li>
+                    <li>
+                        Will-serve letters for utilities including water, sanitary sewer, gas, electric, telephone
+                    </li>
+                    <li>
+                        Copies of any public works agreements for required on- or off-site work
+                    </li>
+                </ul>
                 <h2 class="h5 text-primary">
                     Cost Review
                 </h2>
@@ -307,15 +368,20 @@ final class ProvidedDataStore extends DataStore
                     The cost review includes an evaluation of the proposed budget with an in-depth analysis of the construction budget and contingency to complete the proposed development within the project schedule timeline.
                     Documents to be reviewed include the following:
                 </p>
-                <p>
-                    - Construction budget
-                    <br>
-                    - Development budget
-                    <br>
-                    - Loan hard cost budget
-                    <br>
-                    - Comparison of the project budget to those of other similar projects
-                </p>
+                <ul>
+                    <li>
+                        Construction budget
+                    </li>
+                    <li>
+                        Development budget
+                    </li>
+                    <li>
+                        Loan hard cost budget
+                    </li>
+                    <li>
+                        Comparison of the project budget to those of other similar projects
+                    </li>
+                </ul>
                 <h2 class="h5 text-primary">
                     Construction Process Monitoring
                 </h2>
@@ -330,27 +396,38 @@ final class ProvidedDataStore extends DataStore
                 <h2 class="h5 text-primary">
                     During the process, LCI can perform the following:
                 </h2>
-                <p>
-                    - Periodic site visits to document/evaluate the quality, quantity, and status of work completed
-                    <br>
-                    - Verify that work in place conforms with contractor’s application for payment
-                    <br>
-                    - Confirm the project status conforms with the construction schedule
-                    <br>
-                    - Confirm that work in place conforms with approved plans and specifications and no substantive changes are made without client knowledge
-                    <br>
-                    - Review and evaluate all change orders
-                    <br>
-                    - Review available lien waivers
-                    <br>
-                    - Confirm and document the inventory of stored materials on or off site
-                    <br>
-                    - Assess the adequacy of funds to complete the project
-                    <br>
-                    - Review and record special inspection reports
-                    <br>
-                    - Provide a client-specific written report with photographic documentation, a summary of findings, and recommendations for the disbursement request
-                </p>',
+                <ul>
+                    <li>
+                        Periodic site visits to document/evaluate the quality, quantity, and status of work completed
+                    </li>
+                    <li>
+                        Verify that work in place conforms with contractor’s application for payment
+                    </li>
+                    <li>
+                        Confirm the project status conforms with the construction schedule
+                    </li>
+                    <li>
+                        Confirm that work in place conforms with approved plans and specifications and no substantive changes are made without client knowledge
+                    </li>
+                    <li>
+                        Review and evaluate all change orders
+                    </li>
+                    <li>
+                        Review available lien waivers
+                    </li>
+                    <li>
+                        Confirm and document the inventory of stored materials on or off site
+                    </li>
+                    <li>
+                        Assess the adequacy of funds to complete the project
+                    </li>
+                    <li>
+                        Review and record special inspection reports
+                    </li>
+                    <li>
+                        Provide a client-specific written report with photographic documentation, a summary of findings, and recommendations for the disbursement request
+                    </li>
+                </ul>',
                 $this->image_service->getImages('construction_monitoring')
             ),
             new Provided(
@@ -418,40 +495,54 @@ final class ProvidedDataStore extends DataStore
                     <li class="mb-5">
                         Non-invasive Observations
                         <br>
-                        <div class="ms-3">
-                            - Review of Construction Documents
-                            <br>
-                            - Interview with Owners, Property Managers, Occupants and previous Consultants and Contractors
-                            <br>
-                            - Visual review
-                            <br>
-                            - Moisture meter testing
-                            <br>
-                            - Research
-                            <br>
-                            - Infrared thermography
-                            <br>
-                            - Determine areas for intrusive investigations
-                        </div>
+                        <ul>
+                            <li>
+                                Review of Construction Documents
+                            </li>
+                            <li>
+                                Interview with Owners, Property Managers, Occupants and previous Consultants and Contractors
+                            </li>
+                            <li>
+                                Visual review
+                            </li>
+                            <li>
+                                Moisture meter testing
+                            </li>
+                            <li>
+                                Research
+                            </li>
+                            <li>
+                                Infrared thermography
+                            </li>
+                            <li>
+                                Determine areas for intrusive investigations
+                            </li>
+                        </ul>
                     </li>
                     <li class="mb-5">
                         Invasive (Destructive) Observation
                         <br>
-                        <div class="ms-3">
-                            - Solicit insured and bonded Contractors for intrusive demolition and repair
-                            <br>
-                            - Remove the layers of the buildings envelope, one layer at a time, to understand what is occurring underneath.
-                            Once an area has been “opened” we can observe the damage, measure the prevalence of the condition and determine what defects may be present.
-                        </div>
+                        <ul>
+                            <li>
+                                Solicit insured and bonded Contractors for intrusive demolition and repair
+                            </li>
+                            <li>
+                                Remove the layers of the buildings envelope, one layer at a time, to understand what is occurring underneath.
+                                Once an area has been “opened” we can observe the damage, measure the prevalence of the condition and determine what defects may be present.
+                            </li>
+                        </ul>
                     </li>
                     <li class="mb-5">
                         Report with Recommendations
                         <br>
-                        <div class="ms-3">
-                            - Emphasize life-safety and code compliance issues
-                            <br>
-                            - Provide clear, concise and comprehensive understanding of the building issue
-                        </div>
+                        <ul>
+                            <li>
+                                Emphasize life-safety and code compliance issues
+                            </li>
+                            <li>
+                                Provide clear, concise and comprehensive understanding of the building issue
+                            </li>
+                        </ul>
                     </li>
                 </ol>',
                 $this->image_service->getImages('forensic_investigation')
