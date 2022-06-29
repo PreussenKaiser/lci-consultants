@@ -1,0 +1,8 @@
+.nav-link {
+  transition: none !important;
+}
+@media (max-width: 768px) {
+  .navbar-brand > img {
+    width: 256px;
+  }
+}

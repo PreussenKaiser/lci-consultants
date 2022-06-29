@@ -1,0 +1,17 @@
+.service-header {
+  height: 42vh;
+}
+@media (min-width: 996px) {
+  .service-header p,
+  .service-header b {
+    font-size: 1.15rem;
+  }
+  .service-header h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .service-header {
+    height: 100%;
+  }
+}

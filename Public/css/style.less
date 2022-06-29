@@ -1,5 +1,8 @@
+@import 'variables';
 @import 'positioning';
 @import 'backgrounds';
+@import 'structure';
+@import 'navbars';
 @import 'images';
 @import 'footers';
 @import 'lists';
@@ -23,33 +26,5 @@ body {
 
   &::-webkit-scrollbar-thumb {
     .bg-textile-light-gray;
-  }
-}
-
-.nav-link {
-  // removes black flash in nav after redirect
-  transition: none !important;
-}
-
-.service-header {
-  // height: 276.8px;
-
-  // @media (max-width: 768px) {
-  //   height: 320px;
-  // }
-
-  height: 42vh;
-
-  @media (min-width: 996px) {
-    p, b {
-      font-size: 1.15rem;
-    }
-  
-    h1 {
-      font-size: 1.5rem;
-    }
-  }
-  @media (max-width: 768px) {
-    height: 100%;
   }
 }
