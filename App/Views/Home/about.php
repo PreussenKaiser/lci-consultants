@@ -14,10 +14,16 @@
         </div>
     </div>
     <div class="row bg-textile-light-blue py-4">
-        <div class="col-sm-4 mx-auto">
-            <h2 class="h4 text-white mb-0 ms-sm-2">
-                Jay Lukan
-            </h2>
+        <div class="container-inline">
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-9 px-0 px-sm-3">
+                    <h2 class="h4 text-white mb-0">
+                        Jay Lukan
+                    </h2>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -80,10 +86,16 @@
 </div>
 <div class="container-fluid">
     <div class="row bg-textile-light-blue py-4">
-        <div class="col-sm-4 mx-auto">
-            <h2 class="h4 text-white mb-0 ms-sm-2">
-                Lisa Lukan
-            </h2>
+        <div class="container-inline">
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-9 px-0 px-sm-3">
+                    <h2 class="h4 text-white mb-0">
+                        Lisa Lukan
+                    </h2>
+                </div>
+            </div>
         </div>
     </div>
 </div>

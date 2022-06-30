@@ -2,6 +2,8 @@
 
 namespace Core\Logging;
 
+use DateTime;
+
 /**
  * The logger which logs to a text file.
  * 
@@ -104,7 +106,9 @@ final class Logger implements LoggerInterface
      */
     private function writeLog(string $msg, int $level): void
     {
-        $log = "$level: $msg\n";
+        $date = new DateTime();
+        $current = $date->format('Y-m-d H:i:s');
+        $log = "($current) $level: $msg\n";
 
         $stream = fopen($this->path, 'a');
 

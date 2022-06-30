@@ -2,3 +2,42 @@
   position: relative;
   bottom: 64px;
 }
+.container-inline {
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 0 var(--bs-gutter-x, 0.75rem) !important;
+}
+.container-inline > .row {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .container-inline {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-inline {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-inline {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-inline {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-inline {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 576px) {
+  .px-sm-3 {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+}

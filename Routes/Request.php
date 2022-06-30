@@ -3,7 +3,6 @@
 namespace Routes;
 
 use App\Controllers\Controller;
-
 use Exception;
 
 /**
